@@ -2,7 +2,7 @@ const categoryButtons = [
   {
     id: 1,
     name: "Breakfast",
-    src: "../../public/assets/dish_types_svg/breakfast.svg",
+    src: "../public/assets/dish_types_svg/breakfast.svg",
   },
   {
     id: 2,
