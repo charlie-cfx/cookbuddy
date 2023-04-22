@@ -2,10 +2,11 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import DishTypes from "../components/DishTypes";
 import RecipesList from "../components/RecipesList";
-import Footer from "../components/Footer";
 
 import "../styles/Home.scss";
 import NavBar from "../components/NavBar";
+
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [recipesData, setRecipesData] = useState([]);
